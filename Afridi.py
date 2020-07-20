@@ -87,7 +87,7 @@ print  """
 \033[1;95m┈┈┈▕┈┈┈╰╯┈┈┈▏┈┈┈┈┈┈┈┈
 \033[1;95m┈┈┈▕╱╲╱╲╱╲╱╲▏┈┈┈┈┈┈┈┈
 \033[1;91m► ► ► ► ► ► ► ► ► ►\033[1;95mAFRIDI\033[1;91m◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄"""
-jalan("\033[1;93m Whatsapp +1 (224) 662-6396                                  
+jalan("\033[1;93m Whatsapp +1 (224) 662-6396")                                  
 jalan("\033[1;93m --WELCOME---TO---PAKISTANI---HACKERS---TEAM-----")
 print "\033[1;95m► ► ► ► ► ► ► ► ► ►\033[1;91mAFRIDI\033[1;95m◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄"
 
@@ -100,7 +100,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:B4BALOCH
+            print "Logged in successfully as " + username #Dev:AFRIDI
 	    time.sleep(2)
             loop = 'false'
         else:
