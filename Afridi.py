@@ -53,8 +53,8 @@ def jalan(z):
 logo = """
 \033[1;95m╲╲╭━━━━╮╲╲   A  ╲╲╭━━━━╮╲╲
 \033[1;95m╭╮┃▆┈┈▆┃╭╮   H  ╭╮┃▆┈┈▆┃╭╮
-\033[1;95m┃╰┫▽▽▽▽┣╯┃ K  ┃╰┫▽▽▽▽┣╯┃
-\033[1;95m╰━┫△△△△┣━╯ H  ╰━┫△△△△┣━╯
+\033[1;95m┃╰┫▽▽▽▽┣╯┃  K  ┃╰┫▽▽▽▽┣╯┃
+\033[1;95m╰━┫△△△△┣━╯  H  ╰━┫△△△△┣━╯
 \033[1;95m╲╲┃┈┈┈┈┃╲╲   A  ╲╲┃┈┈┈┈┃╲╲
 \033[1;95m╲╲┃┈┏┓┈┃╲╲   C  ╲╲┃┈┏┓┈┃╲╲
 \033[1;95m▔▔╰━╯╰━╯▔▔   K  ▔▔╰━╯╰━╯▔▔
@@ -118,11 +118,11 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning: \033[1;95mTermux  New Updated Tool' )                 
+		jalan('\033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
+		jalan('\033[1;91mWarning: \033[1;95mUse a New Account To Login' )
+		jalan('\033[1;91mWarning: \033[1;95mTermux  New Updated Tool' )                 
 		print "\033[1;95m► ► ► ► ► ► ► ► ► ►\033[1;91mAFRIDI\033[1;95m◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄"
-		print('	   \033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
+		print('\033[1;91m▬\x1b[1;95m.........LOGIN WITH FACEBOOK........\x1b[1;91m▬' )
 		print('	' )
 		id = raw_input('\033[1;91m[+] \x1b[1;91mID/Email\x1b[1;95m: \x1b[1;95m')
 		pwd = raw_input('\033[1;91m[+] \x1b[1;91mPassword\x1b[1;95m: \x1b[1;95m')
